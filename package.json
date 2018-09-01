@@ -1,0 +1,30 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test"
+  },
+  "keywords": [],
+  "author": "Simon Ordish <simon.ordish@masagi.co.uk> (http://masa.gi)",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "nodemon": "^1.18.4",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "expect",
+      "beforeEach",
+      "afterEach"
+    ]
+  }
+}

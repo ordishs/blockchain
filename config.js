@@ -1,4 +1,6 @@
 
 module.exports = {
-  DIFFICULTY: 3
+  DIFFICULTY: 4,
+  MINE_RATE: 3000,
+  INITIAL_BALANCE: 500
 }
